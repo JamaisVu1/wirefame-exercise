@@ -1,20 +1,25 @@
+.whole {
+  border: 10px solid green;
+  display: flex;
+  flex-direction: column;
+}
+
 .header {
   align-items: center;
   background-color: #444444;
   color: grey;
   display: flex;
   flex-direction: row;
-  gap: 1em;
-  justify-content: space-between;
+  gap: 30px;
   margin: 0px;
   padding: 20px;
 }
+
 
 .header div {
   border: 5px solid red;
   margin: 0 10px;
 }
-
 
 .header img {
   max-width: 200px;
@@ -22,8 +27,36 @@
 }
 
 .hero {
+  border: solid red 5px;
   align-items: center;
   display: flex;
+  flex-direction: row;
   justify-content: space-around;
   margin-top: 20px;
+}
+
+.sub {
+  border: solid red 5px;
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+justify-content: center;
+}
+
+.sub img {
+   margin: 0 15px;
+}
+
+.featured {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.featured .content {
+border: 5px solid blue;
+  display: flex;
+flex-direction: column;
 }
