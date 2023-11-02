@@ -1,5 +1,4 @@
 .whole {
-  border: 10px solid green;
   display: flex;
   flex-direction: column;
 }
@@ -15,9 +14,7 @@
   padding: 20px;
 }
 
-
 .header div {
-  border: 5px solid red;
   margin: 0 10px;
 }
 
@@ -27,7 +24,6 @@
 }
 
 .hero {
-  border: solid red 5px;
   align-items: center;
   display: flex;
   flex-direction: row;
@@ -36,35 +32,45 @@
 }
 
 .sub {
-  border: solid red 5px;
   display: flex;
   flex-direction: row;
   margin-top: 20px;
-justify-content: center;
+  justify-content: center;
 }
 
 .sub img {
-   margin: 0 15px;
+  margin: 0 15px;
 }
 
 .featured {
+border: solid red 2px;
   align-items: center;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
   margin-top: 20px;
 }
 
 .featured .content {
-border: 5px solid blue;
   display: flex;
-flex-direction: column;
+  flex-direction: column;
+  padding: 15px;
+}
+
+.featured button {
+  color: antiquewhite;
+  background-color: black;
+}
+
+h3 {
+  font-size: large;
+  font-weight: lighter;
 }
 
 .footer {
- display: flex;
+  display: flex;
   flex-direction: row;
   background-color: #444444;
-margin-top: 20px;
+  margin-top: 20px;
   min-height: 100px;
 }
